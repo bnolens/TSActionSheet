@@ -25,7 +25,10 @@
 
 - (IBAction) showFastActionSheet:(id)sender {
     
-    [TSActionSheet showFrom:self withTitle:nil
+    // Fast way to show a custom actionSheet on the screen
+    
+    [TSActionSheet showFrom:self
+                  withTitle:nil
           cancelButtonTitle:nil
      destructiveButtonTitle:NSLocalizedString(@"Cancel", nil)
           otherButtonTitles:@[NSLocalizedString(@"Option 1", nil), NSLocalizedString(@"Option 2", nil)]
@@ -35,6 +38,8 @@
 }
 
 - (IBAction) showDetailedActionSheet:(id)sender {
+    
+    // Detailed and customizable way to show a custom actionSheet on the screen
     
     TSActionSheet *actionSheet = [TSActionSheet new];
     actionSheet.otherButtonTitles = @[@"Option A", @"Option B", @"Option C"];
