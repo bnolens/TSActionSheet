@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger, TSActionSheetBackgroundType) {
     TSActionSheetBackgroundTypeBlurredExtraLight
 };
 
-typedef void (^TSActionSheetCompletionBlock) (TSActionSheet * __nonnull actionSheet, NSInteger buttonIndex);
+typedef void (^TSActionSheetCompletionBlock) (TSActionSheet * _Nullable actionSheet, NSInteger buttonIndex);
 
 ///Custom UIActionSheet
 @interface TSActionSheet : NSObject
