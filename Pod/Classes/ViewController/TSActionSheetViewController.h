@@ -6,6 +6,9 @@
 //  Copyright (c) 2015 True Story. All rights reserved.
 //
 
+@import Foundation;
+@import UIKit;
+
 @protocol TSActionSheetDelegate;
 
 @interface TSActionSheetViewController : UIViewController
