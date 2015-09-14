@@ -1,0 +1,4 @@
+language: objective-c
+script:
+- pod lib lint
+- xctool -workspace Example/TSActionSheet-Example/TSActionSheet-Example.xcworkspace -scheme TSActionSheet-Example  -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

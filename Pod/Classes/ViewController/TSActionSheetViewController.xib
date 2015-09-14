@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSActionSheetViewController">
+            <connections>
+                <outlet property="actionsheetHeight" destination="aWs-8F-gJU" id="gBi-lp-Ej6"/>
+                <outlet property="actionsheetPaddingBottom" destination="sHU-vp-uTp" id="nOY-xL-c6s"/>
+                <outlet property="actionsheetPaddingLeft" destination="g2Z-Cj-cqh" id="fGk-pv-Sz6"/>
+                <outlet property="actionsheetPaddingRight" destination="2TQ-CN-GwP" id="AUH-Vu-hua"/>
+                <outlet property="collectionView" destination="zEr-Bp-SNl" id="dSu-JW-3zQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W4d-Iy-lgc" userLabel="ActionSheet">
+                    <rect key="frame" x="0.0" y="450" width="600" height="150"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="zEr-Bp-SNl">
+                            <rect key="frame" x="9" y="0.0" width="582" height="141"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="j0D-ea-0f8">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zEr-Bp-SNl" secondAttribute="trailing" constant="9" id="2TQ-CN-GwP"/>
+                        <constraint firstAttribute="height" constant="150" id="aWs-8F-gJU"/>
+                        <constraint firstItem="zEr-Bp-SNl" firstAttribute="leading" secondItem="W4d-Iy-lgc" secondAttribute="leading" constant="9" id="g2Z-Cj-cqh"/>
+                        <constraint firstItem="zEr-Bp-SNl" firstAttribute="top" secondItem="W4d-Iy-lgc" secondAttribute="top" id="mMK-w5-ZtI"/>
+                        <constraint firstAttribute="bottom" secondItem="zEr-Bp-SNl" secondAttribute="bottom" constant="9" id="sHU-vp-uTp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="W4d-Iy-lgc" secondAttribute="bottom" id="Msm-hE-0vL"/>
+                <constraint firstAttribute="trailing" secondItem="W4d-Iy-lgc" secondAttribute="trailing" id="Okw-XF-jHc"/>
+                <constraint firstItem="W4d-Iy-lgc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WXp-Io-54N"/>
+                <constraint firstItem="W4d-Iy-lgc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="360" id="YjN-zt-ggJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="YjN-zt-ggJ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="410" y="351"/>
+        </view>
+    </objects>
+</document>

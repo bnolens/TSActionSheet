@@ -1,0 +1,12 @@
+
+target 'TSActionSheet-Example' do
+  pod "TSActionSheet", :path => "../../"
+end
+
+target 'TSActionSheet-ExampleTests' do
+  pod "TSActionSheet", :path => "../../"
+end
+
+target 'TSActionSheet-ExampleUITests' do
+  pod "TSActionSheet", :path => "../../"
+end
