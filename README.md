@@ -8,6 +8,7 @@ A really easy and beautiful custom UIActionSheet.
 
 ## Features
 
+* Block callback
 * Customizable colors
 * Customizable fonts
 * Customizable background

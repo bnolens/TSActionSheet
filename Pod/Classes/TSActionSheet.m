@@ -80,11 +80,6 @@ static TSActionSheetOverlayTransitioningDelegate *transitionDelegate;
     self.contentViewController.otherButtonTitles = otherButtonTitles;
 }
 
-- (void) setTapBlock:(TSActionSheetCompletionBlock)tapBlock {
-
-    _tapBlock = tapBlock;
-}
-
 - (void) setDestructiveButtonBackgroundColor:(UIColor *)destructiveButtonBackgroundColor {
 
     _destructiveButtonBackgroundColor = destructiveButtonBackgroundColor;
@@ -106,16 +101,15 @@ static TSActionSheetOverlayTransitioningDelegate *transitionDelegate;
 
 #pragma mark - Private methods
 
-
-#pragma mark - Public methods
-
 - (void) prepareForShow {
-
+    
     [self.contentViewController prepareForShow];
     self.transitionDelegate.contentHeight = self.contentViewController.calculatedHeight;
     self.transitionDelegate.backgroundType = self.backgroundType;
     self.transitionDelegate.backgroundAlpha = self.backgroundAlpha;
 }
+
+#pragma mark - Public methods
 
 - (void) showFrom:(UIViewController*)viewController {
 
@@ -151,7 +145,11 @@ otherButtonTitles:(NSArray *)otherButtonTitles
 - (void) contentViewController:(TSActionSheetViewController *)contentViewController onTapWithIndex:(NSUInteger)index {
 
     [self hide];
-    self.tapBlock(self, index);
+    
+    if (self.tapBlock) {
+        self.tapBlock(self, index);
+    }
+    
     contentViewController.delegate = nil;
 }
 
