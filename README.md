@@ -5,7 +5,19 @@
 A really easy and beautiful custom UIActionSheet.
 
 ## Features
+
 ![Demo](https://cloud.githubusercontent.com/assets/221925/9854292/6074e9c4-5b08-11e5-9e49-11576e246505.gif "Demo")
+
+- Customizable colors
+- Customizable fonts
+- Customizable background
+  -- Dimmed black
+  -- Dimmed white
+  -- Blurred dark
+  -- Blurred light
+  -- Blurred extra light
+  
+  [More info in .h file](/Pod/Classes/TSActionSheet.h)
 
 ## License
 

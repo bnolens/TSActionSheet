@@ -24,6 +24,7 @@ typedef void (^TSActionSheetCompletionBlock) (TSActionSheet * __nonnull actionSh
 ///Custom UIActionSheet
 @interface TSActionSheet : NSObject
 
+// TODO: implement this! This is not working yet.
 /** Title displayed on top of the actionSheet */
 @property (strong, nonatomic, nullable) NSString * title;
 
