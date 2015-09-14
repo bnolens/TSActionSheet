@@ -24,19 +24,19 @@ typedef void (^TSActionSheetCompletionBlock) (TSActionSheet * __nonnull actionSh
 @interface TSActionSheet : NSObject
 
 /** Title displayed on top of the actionSheet */
-@property (strong, nonatomic) NSString * __nullable title;
+@property (strong, nonatomic, nullable) NSString * title;
 
 /** Title of the cancel button (only visible if destructiveButtonTitle is nil) */
-@property (strong, nonatomic) NSString * __nullable cancelButtonTitle;
+@property (strong, nonatomic, nullable) NSString * cancelButtonTitle;
 
 /** Title of the destructive button */
-@property (strong, nonatomic) NSString * __nullable destructiveButtonTitle;
+@property (strong, nonatomic, nullable) NSString * destructiveButtonTitle;
 
 /** Array of button titles */
-@property (strong, nonatomic) NSArray * __nullable otherButtonTitles;
+@property (strong, nonatomic, nullable) NSArray * otherButtonTitles;
 
 /** Block executed when tapping on one of the buttons */
-@property (copy, nonatomic) TSActionSheetCompletionBlock __nullable tapBlock;
+@property (copy, nonatomic, nullable) TSActionSheetCompletionBlock tapBlock;
 
 /** Background type when the actionSheet is visible 
  TSActionSheetBackgroundTypeDimmedBlack
@@ -53,16 +53,16 @@ typedef void (^TSActionSheetCompletionBlock) (TSActionSheet * __nonnull actionSh
 #pragma mark UI customization
 
 /** Background color of the destructive button */
-@property (strong, nonatomic) UIColor * __nullable destructiveButtonBackgroundColor;
+@property (strong, nonatomic, nullable) UIColor * destructiveButtonBackgroundColor;
 
 /** Text color of the destructive button */
-@property (strong, nonatomic) UIColor * __nullable destructiveButtonTextColor;
+@property (strong, nonatomic, nullable) UIColor * destructiveButtonTextColor;
 
 /** Background color of the other buttons */
-@property (strong, nonatomic) UIColor * __nullable otherButtonBackgroundColor;
+@property (strong, nonatomic, nullable) UIColor * otherButtonBackgroundColor;
 
 /** Font of the button titles. Used for all the buttons */
-@property (strong, nonatomic) UIFont * __nullable buttonTitleFont;
+@property (strong, nonatomic, nullable) UIFont * buttonTitleFont;
 
 /**
  
@@ -71,7 +71,7 @@ typedef void (^TSActionSheetCompletionBlock) (TSActionSheet * __nonnull actionSh
  @param viewController The viewController on which you want to show the actionSheet.
  
  */
-- (void) showFrom:(UIViewController* __nonnull)viewController;
+- (void) showFrom:(nonnull UIViewController*)viewController;
 
 /**
  
@@ -85,12 +85,12 @@ typedef void (^TSActionSheetCompletionBlock) (TSActionSheet * __nonnull actionSh
  @param tapBlock Block executed when tapping on one of the buttons
  
  */
-+ (void) showFrom:(UIViewController* __nonnull)viewController
-        withTitle:(NSString * __nullable)title
-cancelButtonTitle:(NSString * __nullable)cancelButtonTitle
-destructiveButtonTitle:(NSString *__nullable)destructiveButtonTitle
-otherButtonTitles:(NSArray *__nullable)otherButtonTitles
-         tapBlock:(TSActionSheetCompletionBlock __nullable)tapBlock;
++ (void) showFrom:(nonnull UIViewController*)viewController
+        withTitle:(nullable NSString *)title
+cancelButtonTitle:(nullable NSString *)cancelButtonTitle
+destructiveButtonTitle:(nullable NSString *)destructiveButtonTitle
+otherButtonTitles:(nullable NSArray *)otherButtonTitles
+         tapBlock:(nullable TSActionSheetCompletionBlock)tapBlock;
 
 - (void) hide;
 

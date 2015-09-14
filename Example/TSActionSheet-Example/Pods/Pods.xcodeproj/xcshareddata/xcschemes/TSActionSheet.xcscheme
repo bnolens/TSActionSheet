@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5139DBC67A8C6A6A1DCA7B93"
+               BlueprintIdentifier = "910AC82BF959BC0C34592E54"
                BuildableName = "libTSActionSheet.a"
                BlueprintName = "TSActionSheet"
                ReferencedContainer = "container:Pods.xcodeproj">
