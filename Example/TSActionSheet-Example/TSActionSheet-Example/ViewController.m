@@ -32,7 +32,7 @@
           cancelButtonTitle:nil
      destructiveButtonTitle:NSLocalizedString(@"Cancel", nil)
           otherButtonTitles:@[NSLocalizedString(@"Option 1", nil), NSLocalizedString(@"Option 2", nil)]
-                   tapBlock:^(TSActionSheet * _Nonnull actionSheet, NSInteger buttonIndex) {
+                   tapBlock:^(__unused TSActionSheet * actionSheet, __unused NSInteger buttonIndex) {
         
     }];
 }
@@ -52,7 +52,7 @@
     actionSheet.destructiveButtonBackgroundColor = [UIColor blackColor];
     actionSheet.destructiveButtonTextColor = [UIColor whiteColor];
     
-    actionSheet.tapBlock =  ^(TSActionSheet * _Nonnull as, NSInteger buttonIndex) {
+    actionSheet.tapBlock =  ^(__unused TSActionSheet * as, __unused NSInteger buttonIndex) {
         
     };
     

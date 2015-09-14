@@ -12,7 +12,6 @@
 		14BB9D931BA6D49400BFE092 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB9D921BA6D49400BFE092 /* ViewController.m */; };
 		14BB9D961BA6D49400BFE092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB9D941BA6D49400BFE092 /* Main.storyboard */; };
 		14BB9D981BA6D49400BFE092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BB9D971BA6D49400BFE092 /* Assets.xcassets */; };
-		14BB9D9B1BA6D49400BFE092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB9D991BA6D49400BFE092 /* LaunchScreen.storyboard */; };
 		14BB9DA61BA6D49400BFE092 /* TSActionSheet_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB9DA51BA6D49400BFE092 /* TSActionSheet_ExampleTests.m */; };
 		1FF8EFB0F52EFFFA96EC5FBE /* libPods-TSActionSheet-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62562B13D6BDC04C7D34D76C /* libPods-TSActionSheet-ExampleTests.a */; };
 		E1C01FB6BC83B98393BB009E /* libPods-TSActionSheet-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B70632D391D89DAD9986D9 /* libPods-TSActionSheet-Example.a */; };
@@ -37,7 +36,6 @@
 		14BB9D921BA6D49400BFE092 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14BB9D951BA6D49400BFE092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14BB9D971BA6D49400BFE092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14BB9D9A1BA6D49400BFE092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14BB9D9C1BA6D49400BFE092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14BB9DA11BA6D49400BFE092 /* TSActionSheet-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSActionSheet-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BB9DA51BA6D49400BFE092 /* TSActionSheet_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSActionSheet_ExampleTests.m; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				14BB9D921BA6D49400BFE092 /* ViewController.m */,
 				14BB9D941BA6D49400BFE092 /* Main.storyboard */,
 				14BB9D971BA6D49400BFE092 /* Assets.xcassets */,
-				14BB9D991BA6D49400BFE092 /* LaunchScreen.storyboard */,
 				14BB9D9C1BA6D49400BFE092 /* Info.plist */,
 				14BB9D8B1BA6D49400BFE092 /* Supporting Files */,
 			);
@@ -233,7 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14BB9D9B1BA6D49400BFE092 /* LaunchScreen.storyboard in Resources */,
 				14BB9D981BA6D49400BFE092 /* Assets.xcassets in Resources */,
 				14BB9D961BA6D49400BFE092 /* Main.storyboard in Resources */,
 			);
@@ -349,14 +345,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		14BB9D991BA6D49400BFE092 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14BB9D9A1BA6D49400BFE092 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -446,7 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TSActionSheet-Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "be.truestory.TSActionSheet-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,7 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TSActionSheet-Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "be.truestory.TSActionSheet-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
