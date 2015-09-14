@@ -2,7 +2,7 @@
 
 # TSActionSheet
 
-Custom UIActionSheet
+A really easy and beautiful custom UIActionSheet.
 
 ## Features
 
