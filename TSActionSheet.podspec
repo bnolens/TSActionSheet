@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSActionSheet"
-  s.version          = "0.0.1"
+  s.version          = "0.1.2"
   s.platform         = :ios, '8.0'
   s.summary          = "A really easy and beautiful custom UIActionSheet"
   s.description      = <<-DESC
