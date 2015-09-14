@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		145F655B1BA709C200A3ECF9 /* Default-Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 145F655A1BA709C200A3ECF9 /* Default-Test.m */; };
 		14BB9D8D1BA6D49400BFE092 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB9D8C1BA6D49400BFE092 /* main.m */; };
 		14BB9D901BA6D49400BFE092 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB9D8F1BA6D49400BFE092 /* AppDelegate.m */; };
 		14BB9D931BA6D49400BFE092 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB9D921BA6D49400BFE092 /* ViewController.m */; };
 		14BB9D961BA6D49400BFE092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB9D941BA6D49400BFE092 /* Main.storyboard */; };
 		14BB9D981BA6D49400BFE092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BB9D971BA6D49400BFE092 /* Assets.xcassets */; };
-		14BB9DA61BA6D49400BFE092 /* TSActionSheet_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB9DA51BA6D49400BFE092 /* TSActionSheet_ExampleTests.m */; };
 		1FF8EFB0F52EFFFA96EC5FBE /* libPods-TSActionSheet-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62562B13D6BDC04C7D34D76C /* libPods-TSActionSheet-ExampleTests.a */; };
 		E1C01FB6BC83B98393BB009E /* libPods-TSActionSheet-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B70632D391D89DAD9986D9 /* libPods-TSActionSheet-Example.a */; };
 /* End PBXBuildFile section */
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		145F655A1BA709C200A3ECF9 /* Default-Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Default-Test.m"; sourceTree = "<group>"; };
 		14BB9D881BA6D49400BFE092 /* TSActionSheet-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSActionSheet-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BB9D8C1BA6D49400BFE092 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14BB9D8E1BA6D49400BFE092 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		14BB9D971BA6D49400BFE092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14BB9D9C1BA6D49400BFE092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14BB9DA11BA6D49400BFE092 /* TSActionSheet-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSActionSheet-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14BB9DA51BA6D49400BFE092 /* TSActionSheet_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSActionSheet_ExampleTests.m; sourceTree = "<group>"; };
 		14BB9DA71BA6D49400BFE092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194AB4B114C5F60910AAE3E3 /* libPods-TSActionSheet-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSActionSheet-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F74FCD7B2DC2766C6B0637 /* Pods-TSActionSheet-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSActionSheet-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSActionSheet-ExampleTests/Pods-TSActionSheet-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		14BB9DA41BA6D49400BFE092 /* TSActionSheet-ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				14BB9DA51BA6D49400BFE092 /* TSActionSheet_ExampleTests.m */,
 				14BB9DA71BA6D49400BFE092 /* Info.plist */,
+				145F655A1BA709C200A3ECF9 /* Default-Test.m */,
 			);
 			path = "TSActionSheet-ExampleTests";
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14BB9DA61BA6D49400BFE092 /* TSActionSheet_ExampleTests.m in Sources */,
+				145F655B1BA709C200A3ECF9 /* Default-Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
