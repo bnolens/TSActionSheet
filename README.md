@@ -29,7 +29,7 @@ Download TSActionSheet and try out the included iPhone example apps
 Add the following line to your Podfile:
 
 ```ruby
-pod 'TSActionSheet', :git => 'https://github.com/bnolens/TSActionSheet.git'
+pod 'TSActionSheet'
 ```
 
 ### 2. Import
