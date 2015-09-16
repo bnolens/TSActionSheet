@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSActionSheet"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.platform         = :ios, '8.2'
   s.summary          = "A really easy and beautiful custom UIActionSheet"
   s.description      = <<-DESC
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.2"
 
   s.requires_arc = true
-  s.source_files = "Pod/Classes/*.{h,m}", "Pod/Classes/**/*.{h,m}"
-  s.resources = "Pod/Classes/**/*.{xib}"
+  s.source_files = "Pod/Classes/**/*.{h,m}"
+  s.resource_bundle = {
+    "UserInterface" => ["Pod/Classes/**/*.{xib}"]
+  }
   s.framework = "UIKit"
 end
