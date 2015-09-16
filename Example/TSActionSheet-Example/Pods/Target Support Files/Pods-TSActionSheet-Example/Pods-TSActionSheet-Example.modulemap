@@ -1,0 +1,6 @@
+framework module Pods_TSActionSheet_Example {
+  umbrella header "Pods-TSActionSheet-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

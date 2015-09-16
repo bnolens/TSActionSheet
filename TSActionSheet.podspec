@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = "Pod/Classes/**/*.{h,m}"
-  s.resources = "Pod/Classes/**/*.{xib}"
+  s.resource_bundles = {
+    "UserInterface" => ["Pod/Classes/**/*.{xib}"]
+  }
   s.framework = "UIKit"
 end

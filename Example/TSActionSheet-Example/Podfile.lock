@@ -1,5 +1,5 @@
 PODS:
-  - TSActionSheet (0.0.1)
+  - TSActionSheet (0.1.4)
 
 DEPENDENCIES:
   - TSActionSheet (from `../../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../../
 
 SPEC CHECKSUMS:
-  TSActionSheet: 604d06a5611aa11142e9d21dc9b3808d90c98908
+  TSActionSheet: 51963a4ceebcdd58e45e9ff315c575ace52bd474
 
 COCOAPODS: 0.38.2

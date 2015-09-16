@@ -14,8 +14,8 @@
 		14BB9D931BA6D49400BFE092 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB9D921BA6D49400BFE092 /* ViewController.m */; };
 		14BB9D961BA6D49400BFE092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB9D941BA6D49400BFE092 /* Main.storyboard */; };
 		14BB9D981BA6D49400BFE092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BB9D971BA6D49400BFE092 /* Assets.xcassets */; };
-		1FF8EFB0F52EFFFA96EC5FBE /* libPods-TSActionSheet-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62562B13D6BDC04C7D34D76C /* libPods-TSActionSheet-ExampleTests.a */; };
-		E1C01FB6BC83B98393BB009E /* libPods-TSActionSheet-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B70632D391D89DAD9986D9 /* libPods-TSActionSheet-Example.a */; };
+		CE3FA5E394A9BB565946D1B8 /* Pods_TSActionSheet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F3C24FE2F58382FD9474A8 /* Pods_TSActionSheet_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FA7AABC40F59FC601F87B11F /* Pods_TSActionSheet_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D98A83110ADBCA81F533413 /* Pods_TSActionSheet_ExampleTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +44,13 @@
 		14BB9DA71BA6D49400BFE092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194AB4B114C5F60910AAE3E3 /* libPods-TSActionSheet-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSActionSheet-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F74FCD7B2DC2766C6B0637 /* Pods-TSActionSheet-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSActionSheet-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSActionSheet-ExampleTests/Pods-TSActionSheet-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		62562B13D6BDC04C7D34D76C /* libPods-TSActionSheet-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSActionSheet-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD77FEDE6EE72E7BA4D8294 /* Pods-TSActionSheet-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSActionSheet-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSActionSheet-ExampleTests/Pods-TSActionSheet-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		723586A1623BE0FE7A2B8CC4 /* Pods-TSActionSheet-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSActionSheet-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSActionSheet-Example/Pods-TSActionSheet-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D98A83110ADBCA81F533413 /* Pods_TSActionSheet_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSActionSheet_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DECDA20C9B105748F8D4924 /* Pods-TSActionSheet-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSActionSheet-ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSActionSheet-ExampleUITests/Pods-TSActionSheet-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		89169316039A04008EADF70E /* Pods-TSActionSheet-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSActionSheet-ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSActionSheet-ExampleUITests/Pods-TSActionSheet-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		94B70632D391D89DAD9986D9 /* libPods-TSActionSheet-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSActionSheet-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2C4237BABF2815BE5DF2CB /* Pods-TSActionSheet-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSActionSheet-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSActionSheet-Example/Pods-TSActionSheet-Example.release.xcconfig"; sourceTree = "<group>"; };
+		F0F3C24FE2F58382FD9474A8 /* Pods_TSActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSActionSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C01FB6BC83B98393BB009E /* libPods-TSActionSheet-Example.a in Frameworks */,
+				CE3FA5E394A9BB565946D1B8 /* Pods_TSActionSheet_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF8EFB0F52EFFFA96EC5FBE /* libPods-TSActionSheet-ExampleTests.a in Frameworks */,
+				FA7AABC40F59FC601F87B11F /* Pods_TSActionSheet_ExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +129,9 @@
 		DDA4B1E1C7D641976A269620 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94B70632D391D89DAD9986D9 /* libPods-TSActionSheet-Example.a */,
-				62562B13D6BDC04C7D34D76C /* libPods-TSActionSheet-ExampleTests.a */,
 				194AB4B114C5F60910AAE3E3 /* libPods-TSActionSheet-ExampleUITests.a */,
+				F0F3C24FE2F58382FD9474A8 /* Pods_TSActionSheet_Example.framework */,
+				7D98A83110ADBCA81F533413 /* Pods_TSActionSheet_ExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +161,7 @@
 				14BB9D851BA6D49400BFE092 /* Frameworks */,
 				14BB9D861BA6D49400BFE092 /* Resources */,
 				7EB2F555CD02187B563B9813 /* Copy Pods Resources */,
+				F3D66AD13DBEEBB92CBA63EE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +181,7 @@
 				14BB9D9E1BA6D49400BFE092 /* Frameworks */,
 				14BB9D9F1BA6D49400BFE092 /* Resources */,
 				3994337F43B156FA37775D90 /* Copy Pods Resources */,
+				35CF6B7D9498D5894A4E250C /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +266,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		35CF6B7D9498D5894A4E250C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSActionSheet-ExampleTests/Pods-TSActionSheet-ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3994337F43B156FA37775D90 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +324,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D66AD13DBEEBB92CBA63EE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSActionSheet-Example/Pods-TSActionSheet-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

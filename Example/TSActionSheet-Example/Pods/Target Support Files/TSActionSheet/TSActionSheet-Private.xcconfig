@@ -1,5 +1,6 @@
 #include "TSActionSheet.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TSActionSheet" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TSActionSheet"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TSActionSheet" "${PODS_ROOT}/Headers/Public"
+OTHER_LDFLAGS = ${TSACTIONSHEET_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

@@ -1,0 +1,6 @@
+framework module TSActionSheet {
+  umbrella header "TSActionSheet-umbrella.h"
+
+  export *
+  module * { export * }
+}
