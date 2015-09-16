@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSActionSheet"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.platform         = :ios, '8.2'
   s.summary          = "A really easy and beautiful custom UIActionSheet"
   s.description      = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   * Customizable background
                        DESC
   s.homepage         = "https://github.com/bnolens/TSActionSheet"
-  s.license          = "MIT"
+  s.license          = { :type => "MIT", :file => "LICENSE.txt" }
   s.author           = { "Benoit Nolens" => "benoit@truestory.io" }
   s.source           = { :git => "https://github.com/bnolens/TSActionSheet.git", :tag => "#{s.version}" }
 
