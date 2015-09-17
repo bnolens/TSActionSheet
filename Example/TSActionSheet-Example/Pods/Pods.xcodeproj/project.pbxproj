@@ -33,21 +33,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		465EB21F650E84383845C520EBA6F6F9 /* PBXContainerItemProxy */ = {
+		1D4AF25FBC98B9F08142A14AF6C51F76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC4A03DAAA31EB667419D5AA30B79920;
 			remoteInfo = TSActionSheet;
 		};
-		9F9139A0693FCA761C839686EE2A1303 /* PBXContainerItemProxy */ = {
+		441285F958C85708CC2C033977245506 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BC998B3FF87AB9AC1B4002955CE65AFB;
 			remoteInfo = "TSActionSheet-UserInterface";
 		};
-		CB04A5079C3221A8C60D166B1CC805CE /* PBXContainerItemProxy */ = {
+		59479DBFA9D9D3EF0BB1792EB1979B3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -395,7 +395,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				016C0E93F42EA514E8914234E032848B /* PBXTargetDependency */,
+				808F07B52D8F1C1915D30FBDC022D832 /* PBXTargetDependency */,
 			);
 			name = "Pods-TSActionSheet-ExampleTests";
 			productName = "Pods-TSActionSheet-ExampleTests";
@@ -414,7 +414,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				85C20B70C925CB6259AB3268E84E54C7 /* PBXTargetDependency */,
+				7A05678FAA13C87920A210110ED75437 /* PBXTargetDependency */,
 			);
 			name = TSActionSheet;
 			productName = TSActionSheet;
@@ -449,7 +449,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				367C597D8BCCB5E6D8984B4F402D8CCC /* PBXTargetDependency */,
+				23A79FDE6A7EE3AF6F6B57E8C478722F /* PBXTargetDependency */,
 			);
 			name = "Pods-TSActionSheet-Example";
 			productName = "Pods-TSActionSheet-Example";
@@ -545,23 +545,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		016C0E93F42EA514E8914234E032848B /* PBXTargetDependency */ = {
+		23A79FDE6A7EE3AF6F6B57E8C478722F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSActionSheet;
 			target = AC4A03DAAA31EB667419D5AA30B79920 /* TSActionSheet */;
-			targetProxy = CB04A5079C3221A8C60D166B1CC805CE /* PBXContainerItemProxy */;
+			targetProxy = 59479DBFA9D9D3EF0BB1792EB1979B3C /* PBXContainerItemProxy */;
 		};
-		367C597D8BCCB5E6D8984B4F402D8CCC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TSActionSheet;
-			target = AC4A03DAAA31EB667419D5AA30B79920 /* TSActionSheet */;
-			targetProxy = 465EB21F650E84383845C520EBA6F6F9 /* PBXContainerItemProxy */;
-		};
-		85C20B70C925CB6259AB3268E84E54C7 /* PBXTargetDependency */ = {
+		7A05678FAA13C87920A210110ED75437 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TSActionSheet-UserInterface";
 			target = BC998B3FF87AB9AC1B4002955CE65AFB /* TSActionSheet-UserInterface */;
-			targetProxy = 9F9139A0693FCA761C839686EE2A1303 /* PBXContainerItemProxy */;
+			targetProxy = 441285F958C85708CC2C033977245506 /* PBXContainerItemProxy */;
+		};
+		808F07B52D8F1C1915D30FBDC022D832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSActionSheet;
+			target = AC4A03DAAA31EB667419D5AA30B79920 /* TSActionSheet */;
+			targetProxy = 1D4AF25FBC98B9F08142A14AF6C51F76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

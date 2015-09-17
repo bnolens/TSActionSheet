@@ -32,7 +32,8 @@ static TSActionSheetOverlayTransitioningDelegate *transitionDelegate;
 
 - (void) setup {
 
-    self.contentViewController = [TSActionSheetViewController new];
+    NSBundle *bundle = [NSBundle bundleForClass:[TSActionSheetViewController class]];
+    self.contentViewController = [[TSActionSheetViewController alloc] initWithNibName:[NSString stringWithFormat:@"UserInterface.bundle/%@", NSStringFromClass([TSActionSheetViewController class])] bundle:bundle];
     self.contentViewController.modalPresentationStyle = UIModalPresentationCustom;
     self.contentViewController.transitioningDelegate = self.transitionDelegate;
     self.contentViewController.delegate = self;

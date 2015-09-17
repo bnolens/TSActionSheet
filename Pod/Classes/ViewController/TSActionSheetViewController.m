@@ -85,7 +85,8 @@ CGFloat const kPaddingRight = 9.f;
     self.collectionView.layer.cornerRadius = 3.f;
 
     // Set cell
-    UINib *nib = [UINib nibWithNibName:@"TSActionSheetCell" bundle:nil];
+    NSBundle *bundle = [NSBundle bundleForClass:[TSActionSheetViewController class]];
+    UINib *nib = [UINib nibWithNibName:@"UserInterface.bundle/TSActionSheetCell" bundle:bundle];
     [self.collectionView registerNib:nib forCellWithReuseIdentifier:kActionSheetIdentifier];
 
     self.actionsheetPaddingBottom.constant = 9.f;
